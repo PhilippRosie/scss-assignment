@@ -1,0 +1,56 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.section1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.text-container {
+    width: 640px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    color: #4A4FF2;
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.quote-container {
+    width: 200px;
+    height: 40px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+
+}
+
+.quote {
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 100;
+}
